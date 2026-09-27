@@ -1,0 +1,75 @@
+namespace xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = element dictionary {
+  attribute id          { text },
+  attribute version     { text },
+  attribute domain      { text },
+  attribute langs       { text },
+  attribute target_cefr { text },
+  attribute n_films     { xsd:integer },
+  attribute genres      { text },
+  attribute corpus_size_de { xsd:integer },
+  attribute corpus_size_ru { xsd:integer },
+
+  element entries {
+    element entry {
+      attribute lang { "de" | "ru" },
+      attribute id   { text },
+
+      element headword { text },
+
+      element pos {
+        ("noun" | "adjective" | "adverb" | "verb")
+      },
+
+      element cefr {
+        attribute source {
+          "GermanFluent" | "Goethe" | "Kelly" | "wordfreq"
+        },
+        ("A1" | "A2" | "B1" | "B2" | "C1" | "C2")
+      },
+
+      element domain { text },
+
+      element frequency {
+        attribute corpus      { text },
+        attribute per_1000    { xsd:decimal },
+        attribute film_count  { xsd:integer },
+        xsd:integer
+      },
+
+      element examples {
+        element example {
+          attribute film { text },
+          attribute year { xsd:integer },
+          text
+        }+
+      },
+
+      element collocations {
+        element colloc { text }+
+      }?,
+
+      element chunks {
+        element chunk { text }+
+      }?
+
+    }+
+  },
+
+  element crosslingual {
+    element category {
+      attribute id    { text },
+      attribute label { text },
+
+      element lang {
+        attribute code { "de" | "ru" },
+        element ref {
+          attribute entry { text }
+        }+
+      }*,
+
+      element note { text }
+    }+
+  }
+}

@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary id="cinelexi" version="3.0"
+            domain="film_review" langs="de ru"
+            target_cefr="B1-C1"
+            n_films="15"
+            genres="drama sci-fi crime/thriller action comedy/romance"
+            corpus_size_de="56098"
+            corpus_size_ru="182366">
+
+  <!-- MONOLINGUAL ENTRIES: 18 German + 20 Russian -->
+  <entries>
+
+    <!-- German entries -->
+  <entry lang="de" id="perfekt">
+    <headword>perfekt</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="1.85" film_count="15">104</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Besetzung ist nahe zu perfekt ausgewählt.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Die Schauspieler haben ihre Rollen perfekt gespielt.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>rolle</colloc>
+      <colloc>film</colloc>
+      <colloc>szene</colloc>
+    </collocations>
+    <chunks>
+      <chunk>perfekte mischung</chunk>
+      <chunk>perfekte mischung aus</chunk>
+      <chunk>perfekter film</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="de" id="genial">
+    <headword>genial</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="1.62" film_count="13">91</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Manchmal bedarf es einfach nicht vieler Worte: dies ist mit absoluter Sicherheit einer der besten Filme aller Zeiten, ein genial gespieltes und Inszeniertes Drama voller Anspruch, Emotionen – und seltsamerweise hohem Unterhaltungswert.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Die Schauspieler harmonieren wunderbar und die Story ist genial.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>film</colloc>
+      <colloc>geschichte</colloc>
+      <colloc>bild</colloc>
+    </collocations>
+    <chunks>
+      <chunk>geniale dialoge</chunk>
+      <chunk>genialen soundtrack</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="de" id="meisterwerk">
+    <headword>meisterwerk</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="1.6" film_count="15">90</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Alles in allem ist &quot;Die Verurteilten&quot; ein wahres Meisterwerk des Gefängisdramas und ist für alle Filmfans nur wärmstens zu empfehlen.
+      </example>
+      <example film="The Green Mile" year="1999">
+        &quot;The Green Mile&quot; ist ein meisterwerk!!! kein film hat mich je so emotional berührt wie dieser. echt top und jeden zu empfehlen!
+      </example>
+    </examples>
+    <collocations>
+      <colloc>absolut</colloc>
+      <colloc>wahr</colloc>
+      <colloc>zeitlos</colloc>
+    </collocations>
+    <chunks>
+      <chunk>absolutes meisterwerk</chunk>
+      <chunk>wahres meisterwerk</chunk>
+      <chunk>zeitloses meisterwerk</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="de" id="fazit">
+    <headword>fazit</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="1.19" film_count="15">67</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Fazit: Mitreißendes Gefängnisdrama voller Härte, Emotionen und Menschlichkeit sowie einem tollen und gewitzten Ende!
+      </example>
+      <example film="The Green Mile" year="1999">
+        Fazit: Sensibles, toll gespieltes und ruhiges Märchen für Männer, bei dem trotz der 3 Stunden Länge die Zeit wie im Fluge vergeht – nur sollten Zartbesaitete bei den Exekutionen lieber wegschauen.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>einzig</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="darsteller">
+    <headword>darsteller</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.94" film_count="13">53</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Aber auch die anderen Darsteller, wie z.
+      </example>
+      <example film="Fight Club" year="1999">
+        Ansonsten sind die Darsteller absolut herausragend und der Soundtrack ebenso. ''Fight Club'' ist ein Film den mann sich 20 Mal angucken kann ohne sich zu langweilen.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>stark</colloc>
+      <colloc>hervorragend</colloc>
+      <colloc>sympathisch</colloc>
+    </collocations>
+    <chunks>
+      <chunk>starken darstellern</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="de" id="spannung">
+    <headword>spannung</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.94" film_count="11">53</frequency>
+    <examples>
+      <example film="The Green Mile" year="1999">
+        Nun die positiven Aspekte: Dramaturgisch, sowie der Spannungsbogen bewegt sich durchgehend auf einem konstant hohen Level, was den Film sehr sehenswert macht.
+      </example>
+      <example film="Fight Club" year="1999">
+        Die Spannung steigt bis Ende und nimmt dann nochmal eine unerwartete Wendung,ein klasse Film!
+      </example>
+    </examples>
+    <collocations>
+      <colloc>intensiv</colloc>
+      <colloc>gesund</colloc>
+      <colloc>klaustrophobisch</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="handlung">
+    <headword>handlung</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.89" film_count="14">50</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Die Story selbst klingt zwar nicht ganz so neu und originell, wird von Darabont aber wunderbar erzählt und baut die Handlung Stück für Stück geschickt auf.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Ein Film der vielleicht nicht die aller besten Bilder hat jedoch eine sehr bewegende, mitreißende und emotionale Handlung.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>verständlich</colloc>
+      <colloc>emotional</colloc>
+      <colloc>stringent</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="gefühl">
+    <headword>gefühl</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.73" film_count="8">41</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Das ein dramatisches Ende kaum funktioniert hätte, ist wohl abzusehen, da man sich am Ende einfach ein glückliches Gefühl beim Abrollen der Credits wünscht.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Definitiv sollte man den Film nicht schauen, wenn man eher was leichtes und erheiterndes aufgrund der eigenen Gefühlsituation benötigt.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>glücklich</colloc>
+      <colloc>beeindruckend</colloc>
+      <colloc>merkwürdig</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="gelungen">
+    <headword>gelungen</headword>
+    <pos>noun</pos>
+    <cefr source="wordfreq">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.7" film_count="6">39</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Der Score zu alle dem ist passend und gelungen.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Umso bemerkenswerter finde ich es, wie hervorragend das ausgerechnet beim spoiler: 'The Green Mile' gelungen ist.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>maschine</colloc>
+      <colloc>meisterwerk</colloc>
+      <colloc>filmgeschichte</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="drehbuch">
+    <headword>drehbuch</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.66" film_count="13">37</frequency>
+    <examples>
+      <example film="The Green Mile" year="1999">
+        Die Schauspieler, die Dialoge, das Drehbuch, die Effekte, die Musik - hier passt einfach fast alles.
+      </example>
+      <example film="Fight Club" year="1999">
+        Viel mehr sollte man nicht wissen, denn der Film besitzt ein grandioses Drehbuch.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>grandios</colloc>
+      <colloc>spitz</colloc>
+      <colloc>originell</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="hervorragend">
+    <headword>hervorragend</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.61" film_count="13">34</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Tim Robbins verkörpert dabei Andy Dufresne wirklich hervorragend und liefert die wohl beste Leistung seiner Karriere ab.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Umso bemerkenswerter finde ich es, wie hervorragend das ausgerechnet beim spoiler: 'The Green Mile' gelungen ist.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>sache</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="atmosphäre">
+    <headword>atmosphäre</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.57" film_count="10">32</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Tolle Darsteller, eine klasse Atmosphäre und eine wunderbar erzählte Geschichte lassen diesen Film zu einem ganz besonderen Erlebnis werden!!
+      </example>
+      <example film="Fight Club" year="1999">
+        Zur coolen und spannenden Atmosphäre, trägt auch die Musik bei.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>düster</colloc>
+      <colloc>schaurig</colloc>
+      <colloc>toll</colloc>
+    </collocations>
+    <chunks>
+      <chunk>düstere atmosphäre</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="de" id="hauptdarsteller">
+    <headword>hauptdarsteller</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.55" film_count="10">31</frequency>
+    <examples>
+      <example film="Fight Club" year="1999">
+        Brad Pitt ist das Alter Ego hier, er ist das was der Hauptdarsteller sein will oder sein wollte!
+      </example>
+      <example film="Interstellar" year="2014">
+        So stark , dass ich ihm eine weitere Oscarnominierung zutraue, wobei das auch von der Konkurrenzsituation abhängt, und die Kategorie des besten Hauptdarstellers ist immer hart umkämpft.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>genial</colloc>
+      <colloc>herrausragend</colloc>
+      <colloc>cool</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="düster">
+    <headword>düster</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.46" film_count="9">26</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Die Atmosphäre ist teilweise ziemlich düster, insgesamt aber doch recht hoffnungsvoll.
+      </example>
+      <example film="Fight Club" year="1999">
+        Alles sehr atmosphärisch und düster gemacht!
+      </example>
+    </examples>
+    <chunks>
+      <chunk>düstere atmosphäre</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="de" id="leinwand">
+    <headword>leinwand</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.39" film_count="11">22</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Einfach Wahnsinn, wie er die innere Verzweiflung unschuldig im Gefängnis zu sitzen, die Qualen der Vergewaltigung der Mithäftlinge, aber auch die Hoffnung auf ein neues Leben nach dem Knast auf die Leinwand bringt.
+      </example>
+      <example film="Interstellar" year="2014">
+        Was für ein Epos auf Leinwand!
+      </example>
+    </examples>
+  </entry>
+
+  <entry lang="de" id="tiefe">
+    <headword>tiefe</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.37" film_count="7">21</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Tim Robbins und Morgan Freeman sind ein Glücksfall für das Knastdrama, transportieren beide mit spielerischer Leichtigkeit emotionale Ausnahmesituationen zum Zuschauer und verleihen dem Opus um eine tiefe Freundschaft die notwendige Authenzität.
+      </example>
+      <example film="Fight Club" year="1999">
+        Es geht viel tiefer in die Psyche als man vom Titel her denken kann.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>wirklich</colloc>
+      <colloc>psychologisch</colloc>
+      <colloc>enorm</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="de" id="visuell">
+    <headword>visuell</headword>
+    <pos>noun</pos>
+    <cefr source="wordfreq">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.37" film_count="7">21</frequency>
+    <examples>
+      <example film="Fight Club" year="1999">
+        Visuell ist &quot;Fight Club&quot; ein glattes Meisterwerk, die Kameraarbeit fügt sich toll in dieses Gesamtbild ein und der hypnotische Soundtrack der Dust Brothers passt einfach perfekt.
+      </example>
+      <example film="Interstellar" year="2014">
+        Gravity, der vor allem visuell beeindruckend war – von der Story her etwas zu wenig - , wird hier deutlich in den Schatten gestellt.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>unglaublich</colloc>
+      <colloc>wirklich</colloc>
+    </collocations>
+    <chunks>
+      <chunk>visuellen effekte</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="de" id="regie">
+    <headword>regie</headword>
+    <pos>noun</pos>
+    <cefr source="GermanFluent">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-DE" per_1000="0.36" film_count="8">20</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Die Regie ist spitze, die Schauspieler spielen einfach nur grandios und die Musik passt immer gut zum Geschehen.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Große Emotionen, gute Schauspieler und sehr gute Regie.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>meisterhaft</colloc>
+      <colloc>beste</colloc>
+    </collocations>
+    <chunks>
+      <chunk>beste regie</chunk>
+    </chunks>
+  </entry>
+
+    <!-- Russian entries -->
+  <entry lang="ru" id="сюжет">
+    <headword>сюжет</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="2.65" film_count="15">483</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        О каждом персонаже, хоть сколько-то значимом для сюжета, к концу просмотра можно однозначно сказать, хороший он или плохой.
+      </example>
+      <example film="The Green Mile" year="1999">
+        И фильм оживил этот сюжет.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>развитие</colloc>
+      <colloc>основный</colloc>
+      <colloc>интересный</colloc>
+    </collocations>
+    <chunks>
+      <chunk>сюжет фильма</chunk>
+      <chunk>сюжетная линия</chunk>
+      <chunk>сюжетные повороты</chunk>
+      <chunk>центре сюжета</chunk>
+      <chunk>сюжетные линии</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="смысл">
+    <headword>смысл</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="1.29" film_count="15">235</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Но её амбиции ограничены: она не изобретает ничего принципиально нового в смысле кинематографии, не предлагает исключительного сюжета и не пытается бросить зрителю интеллектуальный вызов.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Каждый просмотр открывает новые грани, новые оттенки смыслов.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>хороший</colloc>
+      <colloc>глубокий</colloc>
+      <colloc>здравый</colloc>
+    </collocations>
+    <chunks>
+      <chunk>смысл жизни</chunk>
+      <chunk>смысле жизни</chunk>
+      <chunk>здравый смысл</chunk>
+      <chunk>хорошем смысле</chunk>
+      <chunk>смысловой нагрузки</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="драма">
+    <headword>драма</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.97" film_count="15">177</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Это редкое качество для любого фильма и абсолютно уникальное для двухчасовой тюремной драмы.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Сорокалетний мужик над тюремной драмой с элементами мистики — звучит странно.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>криминальный</colloc>
+      <colloc>тюремный</colloc>
+      <colloc>семейный</colloc>
+    </collocations>
+    <chunks>
+      <chunk>семейная драма</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="атмосфера">
+    <headword>атмосфера</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.91" film_count="15">166</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Музыкальное сопровождение Томаса Ньюмана тонко подчёркивает атмосферу фильма.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Он сохранил не только сюжет, но и обстановку, настроение, внутреннюю атмосферу.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>мрачный</colloc>
+      <colloc>гнетущий</colloc>
+      <colloc>правильный</colloc>
+    </collocations>
+    <chunks>
+      <chunk>атмосферу фильма</chunk>
+      <chunk>мрачная атмосфера</chunk>
+      <chunk>атмосфера фильма</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="идея">
+    <headword>идея</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.89" film_count="15">163</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Идея, скорее, в том, что даже человек, совершивший такой чудовищный поступок как убийство всё ещё может оставаться человеком.
+      </example>
+      <example film="Fight Club" year="1999">
+        Как 1999-й изменил всё» схематично расписывает рождение идеи от самых истоков до прокатной судьбы, затрагивая и эпохальный контекст, отчасти связанный с зародившимся в те годы так называемым «мужским движением».
+      </example>
+    </examples>
+    <collocations>
+      <colloc>главный</colloc>
+      <colloc>научный</colloc>
+      <colloc>внедрение</colloc>
+    </collocations>
+    <chunks>
+      <chunk>научные идеи</chunk>
+      <chunk>идеи фильма</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="кадр">
+    <headword>кадр</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.87" film_count="15">158</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Визуально фильм кажется аскетичным, но Роджер Дикинс даже серую тюремную робу умудряется вписать в кадр так, что она не вызывает отторжения.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Каждый кадр со смыслом.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>первый</colloc>
+      <colloc>красивый</colloc>
+      <colloc>последний</colloc>
+    </collocations>
+    <chunks>
+      <chunk>первых кадров</chunk>
+      <chunk>первого кадра</chunk>
+      <chunk>последний кадр</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="сценарий">
+    <headword>сценарий</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.78" film_count="15">143</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Сценарий работает не просто как линейное повествование, а как сложный механизм, состоящий из множества чеховских ружей.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Оно просто обслуживает сценарий.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>хороший</colloc>
+      <colloc>адаптированный</colloc>
+      <colloc>готовый</colloc>
+    </collocations>
+    <chunks>
+      <chunk>лучший сценарий</chunk>
+      <chunk>сценарий фильма</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="реальность">
+    <headword>реальность</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.65" film_count="15">119</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Попробуйте прикинуть вероятность того, что в реальности события при тех же вводных и тех же планах героев сложились бы именно так.
+      </example>
+      <example film="The Green Mile" year="1999">
+        И чем дальше он движется, тем более тонка становится грань между реальностью и мистикой.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>настоящий</colloc>
+      <colloc>ощущение</colloc>
+      <colloc>альтернативный</colloc>
+    </collocations>
+    <chunks>
+      <chunk>грань между реальностью</chunk>
+      <chunk>реальности -</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="человеческий">
+    <headword>человеческий</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.65" film_count="15">118</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Вердикт таков: 'Побег из Шоушенка' стал культовым фильмом, который навсегда останется в истории кино как шедевр о дружбе, надежде и непреодолимой силе человеческого духа.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Кинг иногда пишет про сверхъестественное как про метафору человеческого. «Зелёная миля» — один из лучших примеров.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>природа</colloc>
+      <colloc>исследование</colloc>
+      <colloc>палитра</colloc>
+    </collocations>
+    <chunks>
+      <chunk>человеческой натуры</chunk>
+      <chunk>человеческой природы</chunk>
+      <chunk>человеческого духа</chunk>
+      <chunk>человеческой жизни</chunk>
+      <chunk>человеческих эмоций</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="роман">
+    <headword>роман</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.64" film_count="10">117</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Киноленте весьма оригинальная, поскольку имеет совершенно магическое свойство: она притягивает, заставляет окунуться в мир необычайных приключений, и, как ни странно это звучит, - романтики.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Я читала роман Стивена Кинга и смотрела фильм раньше, поэтому для меня здесь практически невозможно отделить одно от другого.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>одноимённый</colloc>
+      <colloc>экранизация</colloc>
+      <colloc>автор</colloc>
+    </collocations>
+    <chunks>
+      <chunk>романе кормака</chunk>
+      <chunk>одноименному роману</chunk>
+      <chunk>мотивам романа</chunk>
+      <chunk>романа паланика</chunk>
+      <chunk>романа чака паланика</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="финал">
+    <headword>финал</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.64" film_count="15">116</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Первую половину хронометража вы просто фиксируете — или пропускаете мимо глаз — одну деталь за другой, а в финале они срабатывают как части единой схемы.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Чтобы финал работал так, как он работает.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>впечатляющий</colloc>
+      <colloc>мощный</colloc>
+      <colloc>эпичный</colloc>
+    </collocations>
+    <chunks>
+      <chunk>финальная сцена</chunk>
+      <chunk>финальных титров</chunk>
+      <chunk>финал картины</chunk>
+      <chunk>после финальных титров</chunk>
+      <chunk>финальную сцену</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="шедевр">
+    <headword>шедевр</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.63" film_count="15">114</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Вердикт таков: 'Побег из Шоушенка' стал культовым фильмом, который навсегда останется в истории кино как шедевр о дружбе, надежде и непреодолимой силе человеческого духа.
+      </example>
+      <example film="The Green Mile" year="1999">
+        «Зеленая миля» — это тот редкий фильм, который я не могу заставить себя пересматривать часто, хотя считаю его шедевром.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>безусловный</colloc>
+      <colloc>кинематографический</colloc>
+      <colloc>очередной</colloc>
+    </collocations>
+    <chunks>
+      <chunk>шедевр кинематографа</chunk>
+      <chunk>- шедевр</chunk>
+      <chunk>безусловный шедевр</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="визуальный">
+    <headword>визуальный</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.63" film_count="13">114</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Визуально фильм кажется аскетичным, но Роджер Дикинс даже серую тюремную робу умудряется вписать в кадр так, что она не вызывает отторжения.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Фильм будто аккуратно берёт роман за руку и переводит его на другой язык — визуальный язык лиц и коридоров, музыкальный для пауз, язык взглядов, пойманных операторами, и атмосферный для тяжёлого воздуха перед тем, что уже нельзя отменить.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>излишний</colloc>
+      <colloc>странный</colloc>
+      <colloc>величие</colloc>
+    </collocations>
+    <chunks>
+      <chunk>визуальные эффекты</chunk>
+      <chunk>визуальный стиль</chunk>
+      <chunk>визуальный ряд</chunk>
+      <chunk>визуально фильм</chunk>
+      <chunk>визуальный язык</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="итог">
+    <headword>итог</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.61" film_count="15">111</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Однако в итоге фильм транслирует простую истину – власть не всегда на шаг впереди.
+      </example>
+      <example film="The Green Mile" year="1999">
+        В итоге «Зелёная миля» для меня — пример фильма, который выглядит большим и важным, но внутри оказывается куда более пустым, чем принято считать.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>конечный</colloc>
+      <colloc>многозначительный</colloc>
+      <colloc>главный</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="ru" id="кинематограф">
+    <headword>кинематограф</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">C1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.6" film_count="15">110</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Но её амбиции ограничены: она не изобретает ничего принципиально нового в смысле кинематографии, не предлагает исключительного сюжета и не пытается бросить зрителю интеллектуальный вызов.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Финальная сцена казни до сих пор кажется мне одной из самых тяжелых в истории кинематографа, не из-за жестокости, а из-за бессилия героев что-то изменить.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>история</colloc>
+      <colloc>шедевр</colloc>
+      <colloc>мировой</colloc>
+    </collocations>
+    <chunks>
+      <chunk>истории кинематографа</chunk>
+      <chunk>шедевр кинематографа</chunk>
+      <chunk>кинематографическое произведение</chunk>
+      <chunk>мирового кинематографа</chunk>
+      <chunk>историю кинематографа</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="состав">
+    <headword>состав</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.59" film_count="14">108</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Неразлучная парочка 'рабство-свобода' привлекала людей тысячелетиями, разве что 'любовь-смерть' могла составить им достойную конкуренцию.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Актёрский состав подобран с такой бережностью, что герои не выглядят случайными исполнителями.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>актёрский</colloc>
+      <colloc>визуальный</colloc>
+      <colloc>детективный</colloc>
+    </collocations>
+    <chunks>
+      <chunk>актерский состав</chunk>
+      <chunk>актёрский состав</chunk>
+      <chunk>визуальная составляющая</chunk>
+      <chunk>детективная составляющая</chunk>
+      <chunk>визуальную составляющую</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="повествование">
+    <headword>повествование</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.58" film_count="15">106</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Сценарий работает не просто как линейное повествование, а как сложный механизм, состоящий из множества чеховских ружей.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Темп повествования только усиливает проблему.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>часть</colloc>
+      <colloc>нелинейный</colloc>
+      <colloc>структура</colloc>
+    </collocations>
+  </entry>
+
+  <entry lang="ru" id="жанр">
+    <headword>жанр</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B2</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.56" film_count="14">102</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Это крепкая, созданная по проверенным жанровым лекалам драма, которая доставляет удовольствие и работает на максимально широкую аудиторию.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Есть истории, которым тесно в одном жанре.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>разный</colloc>
+      <colloc>фильм</colloc>
+      <colloc>представитель</colloc>
+    </collocations>
+    <chunks>
+      <chunk>разных жанров</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="произведение">
+    <headword>произведение</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.55" film_count="15">100</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Мы привыкли считать Стивена Кинга непревзойдённым мастером мистического жанра, в то время как у короля ужасов есть также и хорошие драматические произведения.
+      </example>
+      <example film="The Green Mile" year="1999">
+        Конечно это всего лишь художественное произведение, а не психологическое исследование.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>художественный</colloc>
+      <colloc>кинематографический</colloc>
+      <colloc>великий</colloc>
+    </collocations>
+    <chunks>
+      <chunk>произведение искусства</chunk>
+      <chunk>кинематографическое произведение</chunk>
+    </chunks>
+  </entry>
+
+  <entry lang="ru" id="судьба">
+    <headword>судьба</headword>
+    <pos>noun</pos>
+    <cefr source="Kelly">B1</cefr>
+    <domain>film review</domain>
+    <frequency corpus="CineLexi-RU" per_1000="0.53" film_count="14">97</frequency>
+    <examples>
+      <example film="The Shawshank Redemption" year="1994">
+        Впрочем, при своей простоте фильм задаёт серьёзные вопросы: в безвыходной ситуации стоит сохранять надежду или безопаснее смириться с судьбой ради сохранения рассудка?
+      </example>
+      <example film="The Green Mile" year="1999">
+        Слёзы здесь не ради слёз — они следствие глубокого сопереживания, ощущения личной причастности к судьбам героев.
+      </example>
+    </examples>
+    <collocations>
+      <colloc>невероятный</colloc>
+      <colloc>лицо</colloc>
+      <colloc>человеческий</colloc>
+    </collocations>
+    <chunks>
+      <chunk>невероятная судьба</chunk>
+    </chunks>
+  </entry>
+
+  </entries>
+
+  <!-- CROSSLINGUAL COMPARISON: 6 evaluative categories -->
+  <crosslingual>
+
+    <category id="supreme_quality" label="Supreme quality">
+      <lang code="de">
+        <ref entry="meisterwerk"/>
+      </lang>
+      <lang code="ru">
+        <ref entry="шедевр"/>
+      </lang>
+      <note>Prototypical quality nouns: German Meisterwerk (compound: Meister+Werk) and Russian шедевр (from French chef-d'oeuvre). Both are the highest-frequency quality markers in their respective subcorpora.</note>
+    </category>
+
+    <category id="narrative_structure" label="Narrative structure">
+      <lang code="de">
+        <ref entry="handlung"/>
+        <ref entry="drehbuch"/>
+      </lang>
+      <lang code="ru">
+        <ref entry="сюжет"/>
+        <ref entry="повествование"/>
+        <ref entry="сценарий"/>
+      </lang>
+      <note>German evaluates narrative through Handlung (plot as experienced) and Drehbuch (script as craft object). Russian distributes across сюжет (plot/story), повествование (mode of narration), and сценарий (screenplay). The three-way Russian distinction has no direct German parallel.</note>
+    </category>
+
+    <category id="emotional_atmospheric" label="Emotional and atmospheric quality">
+      <lang code="de">
+        <ref entry="atmosphäre"/>
+        <ref entry="gefühl"/>
+        <ref entry="spannung"/>
+      </lang>
+      <lang code="ru">
+        <ref entry="атмосфера"/>
+      </lang>
+      <note>German has three distinct emotional-atmospheric nouns: Atmosphäre (ambient mood), Gefühl (felt sense), and Spannung (tension arc). Russian concentrates this evaluative dimension primarily in атмосфера.</note>
+    </category>
+
+    <category id="performance_craft" label="Performance and craft">
+      <lang code="de">
+        <ref entry="darsteller"/>
+        <ref entry="hauptdarsteller"/>
+        <ref entry="drehbuch"/>
+      </lang>
+      <note>German reviews explicitly evaluate acting through Darsteller and Hauptdarsteller (lead actor), and script quality through Drehbuch. No equivalent high-frequency craft vocabulary appears in the Russian subcorpus, which tends to evaluate thematic content over technical execution.</note>
+    </category>
+
+    <category id="meaning_depth" label="Meaning and thematic depth">
+      <lang code="ru">
+        <ref entry="смысл"/>
+        <ref entry="идея"/>
+        <ref entry="судьба"/>
+      </lang>
+      <note>Russian reviewers evaluate films through existential and philosophical categories: смысл (meaning/sense), идея (idea/concept), судьба (fate/destiny). No German counterparts appear at comparable frequency, reflecting different evaluative conventions across the two platforms.</note>
+    </category>
+
+    <category id="discourse_markers" label="Review discourse markers">
+      <lang code="de">
+        <ref entry="fazit"/>
+      </lang>
+      <lang code="ru">
+        <ref entry="итог"/>
+      </lang>
+      <note>Metadiscursive verdict markers: German Fazit and Russian итог both frame the reviewer's final evaluation. Genre-structuring rather than content-evaluating, their high frequency confirms pedagogical relevance for learners producing film reviews.</note>
+    </category>
+
+  </crosslingual>
+
+</dictionary>

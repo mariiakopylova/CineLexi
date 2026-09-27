@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary id="cinelexi" version="3.0"
+            domain="film_review" langs="de ru"
+            target_cefr="B1-C1"
+            n_films="15"
+            genres="drama sci-fi crime/thriller action comedy/romance"
+            corpus_size_de="56098"
+            corpus_size_ru="182366">
+
+  <!-- MONOLINGUAL ENTRIES: 18 German + 20 Russian -->
+  <entries>
+
+    <!-- German entries -->
+    <entry lang="de" id="meisterwerk">
+      <headword>meisterwerk</headword>
+      <pos>noun</pos>
+      <cefr source="GermanFluent">C1</cefr>
+      <domain>film review</domain>
+      <frequency corpus="CineLexi-DE" per_1000="1.6" film_count="15">90</frequency>
+      <examples>
+        <example film="The Shawshank Redemption" year="1994">
+          Alles in allem ist &quot;Die Verurteilten&quot; ein wahres Meisterwerk
+          des Gefängisdramas und ist für alle Filmfans nur wärmstens zu empfehlen.
+        </example>
+        <example film="The Green Mile" year="1999">
+          &quot;The Green Mile&quot; ist ein meisterwerk!!!
+        </example>
+      </examples>
+      <collocations>
+        <colloc>absolut</colloc>
+        <colloc>wahr</colloc>
+        <colloc>zeitlos</colloc>
+      </collocations>
+      <chunks>
+        <chunk>absolutes meisterwerk</chunk>
+        <chunk>wahres meisterwerk</chunk>
+        <chunk>zeitloses meisterwerk</chunk>
+      </chunks>
+    </entry>
+
+    <!-- ... остальные 17 DE + 20 RU статей по тому же образцу ... -->
+
+  </entries>
+
+  <!-- CROSSLINGUAL COMPARISON: 6 evaluative categories -->
+  <crosslingual>
+
+    <category id="supreme_quality" label="Supreme quality">
+      <lang code="de">
+        <ref entry="meisterwerk"/>
+      </lang>
+      <lang code="ru">
+        <ref entry="шедевр"/>
+      </lang>
+      <note>Prototypical quality nouns: German Meisterwerk (compound:
+        Meister+Werk) and Russian шедевр (from French chef-d&apos;oeuvre).
+        Both are the highest-frequency quality markers in their respective
+        subcorpora.</note>
+    </category>
+
+    <category id="narrative_structure" label="Narrative structure">
+      <lang code="de">
+        <ref entry="handlung"/>
+        <ref entry="drehbuch"/>
+      </lang>
+      <lang code="ru">
+        <ref entry="сюжет"/>
+        <ref entry="повествование"/>
+        <ref entry="сценарий"/>
+      </lang>
+      <note>German evaluates narrative through Handlung (plot as experienced)
+        and Drehbuch (script as craft object). Russian distributes across
+        сюжет, повествование, and сценарий. The three-way Russian distinction
+        has no direct German parallel.</note>
+    </category>
+
+    <category id="emotional_atmospheric" label="Emotional and atmospheric quality">
+      <lang code="de">
+        <ref entry="atmosphäre"/>
+        <ref entry="gefühl"/>
+        <ref entry="spannung"/>
+      </lang>
+      <lang code="ru">
+        <ref entry="атмосфера"/>
+      </lang>
+      <note>German has three distinct emotional-atmospheric nouns. Russian
+        concentrates this evaluative dimension primarily in атмосфера.</note>
+    </category>
+
+    <category id="performance_craft" label="Performance and craft">
+      <lang code="de">
+        <ref entry="darsteller"/>
+        <ref entry="hauptdarsteller"/>
+        <ref entry="drehbuch"/>
+      </lang>
+      <note>German reviews explicitly evaluate acting and script quality.
+        No equivalent high-frequency craft vocabulary appears in the Russian
+        subcorpus.</note>
+    </category>
+
+    <category id="meaning_depth" label="Meaning and thematic depth">
+      <lang code="ru">
+        <ref entry="смысл"/>
+        <ref entry="идея"/>
+        <ref entry="судьба"/>
+      </lang>
+      <note>Russian reviewers evaluate films through existential categories:
+        смысл (meaning), идея (idea), судьба (fate). No German counterparts
+        appear at comparable frequency.</note>
+    </category>
+
+    <category id="discourse_markers" label="Review discourse markers">
+      <lang code="de">
+        <ref entry="fazit"/>
+      </lang>
+      <lang code="ru">
+        <ref entry="итог"/>
+      </lang>
+      <note>Metadiscursive verdict markers: German Fazit and Russian итог
+        both frame the reviewer&apos;s final evaluation.</note>
+    </category>
+
+  </crosslingual>
+
+</dictionary>
